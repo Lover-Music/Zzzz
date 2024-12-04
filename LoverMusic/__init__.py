@@ -1,40 +1,26 @@
-from LoverMusic.core.bot import LoverMusic
+from LoverMusic.core.bot import Aviax
 from LoverMusic.core.dir import dirr
 from LoverMusic.core.git import git
 from LoverMusic.core.userbot import Userbot
-from LoverMusic.misc import dbb, heroku, sudo
+from LoverMusic.misc import dbb, heroku
 
 from .logging import LOGGER
 
-# Directories
 dirr()
-
-# Check Git Updates
 git()
-
-# Initialize Memory DB
 dbb()
-
-# Heroku APP
 heroku()
 
-# Load Sudo Users from DB
-sudo()
-
-# Bot Client
-app = LoverMusic()
-
-# Assistant Client
+app = Aviax()
 userbot = Userbot()
+
 
 from .platforms import *
 
-YouTube = YouTubeAPI()
-Carbon = CarbonAPI()
-Spotify = SpotifyAPI()
 Apple = AppleAPI()
-Resso = RessoAPI()
+Carbon = CarbonAPI()
 SoundCloud = SoundAPI()
+Spotify = SpotifyAPI()
+Resso = RessoAPI()
 Telegram = TeleAPI()
-
-aiohttpsession = ClientSession()
+YouTube = YouTubeAPI()
