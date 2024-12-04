@@ -17,7 +17,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001313752285"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "music")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1548904516").split()))
+    map(int, getenv("OWNER_ID", "7758957839").split()))
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/LOVER_MUSIC_SUPPORT")
 SUPPORT_GROUP = getenv(
