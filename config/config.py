@@ -8,12 +8,12 @@ from pyrogram import filters
 load_dotenv()
 
 API_ID = int(getenv("API_ID", "18499702"))
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("API_HASH", "d4dff36c2c1ebf6f8f6bc044b5bce9c9")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "6051187601:AAFVHv00gc0SJhGwxkqmR_4uM8ZA528t7p4")
+BOT_TOKEN = getenv("BOT_TOKEN", "5983601762:AAHpwkJsrBwbGR4lNClYTvlwesbdtJaUvqo")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://EXONTESTMONGO:EXONTESTMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001868248272"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001902619247"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "music")
 
 OWNER_ID = list(
@@ -77,7 +77,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 
 
-STRING1 = getenv("STRING_SESSION", "BQEaSHYArQSTgbqa-Y44-OIAmt5R5vKSTXPg03QExQnkhB6b6yOvjhl6UVmHt91k99Lrk4mGiMLD9VQxeVh8zDclBPweW4l9B2NiS5zobCanhzzspMywuKLeIsMTLn1nQlI3rGJCLxhhBVn-RerjHIFxzxTjE3mHOCwcEuHg7aS8gckaHflps_cfF1jUR5wxmzY7jLs34mRz_VokOp9N0HTJw4qLAPYQXcR_Zncy-GUNxZQ5mxQg7r8kdR19KMuqvjkY478GDqLL4DW6Be-xyhAdoU_6C79bFgph600ZJ2M6ma23jLrI-dC64jjDvJ4sw0lbFHkltZZO8hwxahP5y0QPzKZWCgAAAAHLMGAEAA ")
+STRING1 = getenv("STRING_SESSION", "BQFcU6gAWUBprj22sGe6BIpVLLvjLrm-ozXtsDNoiKK9xVw69iQBrbPx9DeC15JvR552B246_3DSMCfGVpyTu0iU-LobwxdapRlx33hra6IRwdv81TPNvQwh_is0P1ptTierzXGX_97wb0oF3SQreFNCoWkxXaf2ry2RRREabPfX7Cm9rG8zmJhIprRfNOgR9rOFRFOV0SoBEbDiPaWew1uZeOV5pXsqWitqeyjm40E_B9gMa-OjeZSF1X_bjQSsAuqjhUhCsjJvO6EzCDoMONFOmJvrEVkSFbTozWLF9UYAWxTQb-JaaV1OZEPq6aIv-GeiiyHOdD_TWpj9PvB_Tc1IorIWDAAAAAGeVQp7AA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
