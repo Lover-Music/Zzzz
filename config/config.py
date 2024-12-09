@@ -14,8 +14,6 @@ BOT_TOKEN = getenv("BOT_TOKEN", "5983601762:AAEJupBaBZ4aDbE_i547sHutWFNLFLwZGv8"
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://EXONTESTMONGO:EXONTESTMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001947334164"))
-LOGGER_ID = int(getenv("LOGGER_ID", "-1001947334164"))
-LOG_ID = int(getenv("LOG_ID", "-1001947334164"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "music")
 
 OWNER_ID = list(
