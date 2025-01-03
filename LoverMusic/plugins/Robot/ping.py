@@ -4,7 +4,6 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import BANNED_USERS, MUSIC_BOT_NAME, PING_IMG_URL
-from strings import get_command
 from LoverMusic import app
 from LoverMusic.core.call import Anon
 from LoverMusic.utils import bot_sys_stats
