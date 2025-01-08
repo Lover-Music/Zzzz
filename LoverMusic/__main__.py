@@ -8,7 +8,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 import config
 from config import BANNED_USERS
 from LoverMusic import LOGGER, app, userbot
-from LoverMusic.core.call import Anon
+from LoverMusic.core.call import LoverMusic 
 from LoverMusic.plugins import ALL_MODULES
 from LoverMusic.utils.database import get_banned_users, get_gbanned
 
