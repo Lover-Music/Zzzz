@@ -1,3 +1,4 @@
+import sys
 import uvloop
 
 uvloop.install()
@@ -43,14 +44,14 @@ class Aviax(Client):
             LOGGER(__name__).error(
                 f"Bot has failed to access the log group/channel.\n  Reason : {type(ex).__name__}."
             )
-            exit()
+            sys.exit()
 
         a = await self.get_chat_member(config.LOG_GROUP_ID, self.id)
         if a.status != ChatMemberStatus.ADMINISTRATOR:
             LOGGER(__name__).error(
                 "Please promote your bot as an admin in your log group/channel."
             )
-            exit()
+            sys.exit()
         LOGGER(__name__).info(f"Music Bot Started as {self.name}")
 
     async def stop(self):
