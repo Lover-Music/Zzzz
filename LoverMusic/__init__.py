@@ -1,4 +1,4 @@
-
+from AviaxMusic.core.bot import LoverMusic
 from LoverMusic.core.dir import dirr
 from LoverMusic.core.git import git
 from LoverMusic.core.userbot import Userbot
