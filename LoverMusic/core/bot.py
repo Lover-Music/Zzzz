@@ -46,7 +46,7 @@ class LoverMusic(Client):
             exit()
 
         a = await self.get_chat_member(config.LOG_GROUP_ID, self.id)
-        if a.status != "ADMINISTRATOR:
+        if a.status != "ADMINISTRATOR":
             LOGGER(__name__).error(
                 "Please promote your bot as an admin in your log group/channel."
             )
