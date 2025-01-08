@@ -1,4 +1,4 @@
-from LoverMusic.core.bot import Anony
+from LoverMusic.core.bot import AnonX
 from LoverMusic.core.dir import dirr
 from LoverMusic.core.git import git
 from LoverMusic.core.userbot import Userbot
@@ -11,7 +11,7 @@ git()
 dbb()
 heroku()
 
-app = Anony()
+app = AnonX()
 userbot = Userbot()
 
 
