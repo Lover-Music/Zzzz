@@ -5,15 +5,30 @@ from dotenv import load_dotenv
 from pyrogram import filters
 
 load_dotenv()
+from os import getenv
 
-API_ID = int(getenv("API_ID", "18499702"))
-API_HASH = getenv("API_HASH", "d4dff36c2c1ebf6f8f6bc044b5bce9c9")
+from dotenv import load_dotenv
+from pyrogram import filters
+
+load_dotenv()
+
+# Get this value from my.telegram.org/apps
+API_ID = int(getenv("API_ID", "22926746"))
+API_HASH = getenv("API_HASH", "ffd91926f59e55fb08b3e1a4f5b99b1d")
+
+# Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN", "5624068661:AAEXObnqRAujlX74hsjZWR2xXhx11Syh2ZM")
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://EXONTESTMONGO:EXONTESTMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority")
+
+# Get your mongo url from cloud.mongodb.com
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority")
+
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
+
+# Chat id of a group for logging bot's activities
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002488687891"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "『sona ✘ ℳ𝓾𝓼𝓲c͢˼")
-OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1548904516").split()))
+
+# Get this value from @MissRose_Bot on Telegram by /id
+OWNER_ID = int(getenv("OWNER_ID", "7758957839"))
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/LOVER_MUSIC_SUPPORT")
 SUPPORT_GROUP = getenv(
