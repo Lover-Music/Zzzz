@@ -13,7 +13,7 @@ API_HASH = getenv("API_HASH", "d4dff36c2c1ebf6f8f6bc044b5bce9c9")
 BOT_TOKEN = getenv("BOT_TOKEN", "5624068661:AAEXObnqRAujlX74hsjZWR2xXhx11Syh2ZM")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://EXONTESTMONGO:EXONTESTMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002488687891"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002488687891"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "music")
 
 OWNER_ID = list(
