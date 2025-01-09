@@ -75,8 +75,8 @@ node(){
 
 repo(){
 	# Get git repo if the installer is runned standalone
-	[[ ! "VirusMusicBot" == $(basename -s .git `git config --get remote.origin.url`) ]] &&
-	git clone https://github.com/shubhamsah123/LoverMusic &&  cd LoverMusic
+	[[ ! "LoverMusic" == $(basename -s .git `git config --get remote.origin.url`) ]] &&
+	git clone https://github.com/Lover-Music/Zzzz &&  cd LoverMusic
 }
 
 
