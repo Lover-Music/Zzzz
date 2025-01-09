@@ -7,17 +7,14 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "18499702"))
-API_HASH = getenv("API_HASH", "d4dff36c2c1ebf6f8f6bc044b5bce9c9")
-
+API_ID = int(getenv("API_ID", "20594535"))
+API_HASH = getenv("API_HASH", "40d94b8c167104937b2846efa895bef7")
 BOT_TOKEN = getenv("BOT_TOKEN", "5624068661:AAEXObnqRAujlX74hsjZWR2xXhx11Syh2ZM")
-
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://EXONTESTMONGO:EXONTESTMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority")
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002488687891"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "music")
-
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002488687891"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "『sona ✘ ℳ𝓾𝓼𝓲c͢˼")
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "7758957839").split()))
+    map(int, getenv("OWNER_ID", "1548904516").split()))
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/LOVER_MUSIC_SUPPORT")
 SUPPORT_GROUP = getenv(
@@ -37,7 +34,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Lover-Music/Zzzz",
+    "https://github.com/SPARTENX-OP/VirusMusicBot",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
